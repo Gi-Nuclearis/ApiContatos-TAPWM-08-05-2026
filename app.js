@@ -1,9 +1,9 @@
 const express = require ('express');
-const dotaenv = require('dotenv');
+const dotenv = require('dotenv');
 const conectarBanco = require('./config/db');
 const contatoRoutes = require('./routes/contatoRoutes');
 
-DocumentFragment.cofig();
+dotenv.config();
 const app = express();
 
 //Middleware para interpretar JSON no corpo das requisições.

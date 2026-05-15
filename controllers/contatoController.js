@@ -47,4 +47,4 @@ exports.deleteContato = async (req, res) => {
   } catch (err) {
     res.status(500).json({ mensagem: 'Erro ao excluir contato', erro: err.message });
   }
-};git
+};

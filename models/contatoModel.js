@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const contatoRoutes = new mongoose.Schema({
+const contatoSchema = new mongoose.Schema({
     nome: {
         type: String,
         required: [true, 'O nome é obrigatório']
